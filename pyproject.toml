@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "analise-eleicoes-2024"
+version = "0.1.0"
+description = "Análise sobre dados de candidatos às eleições com foco no estado da Paraíba."
+authors = ["jocelio <joceliojairovf@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+taskipy = "^1.13.0"
+ruff = "^0.6.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 79
+exclude = ['*.ipynb']
+
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+
+[tool.taskipy.tasks]
+lint = 'ruff check . && ruff check . --diff'
+format = 'ruff check . --fix && ruff format .'
