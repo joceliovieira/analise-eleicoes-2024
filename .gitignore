@@ -2,3 +2,6 @@
 *.zip
 
 poetry.lock
+
+# Arquivos pessoais de notas etc
+*.pvd*

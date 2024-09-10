@@ -1,0 +1,7 @@
+{
+  "candidatos": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2024.zip",
+  "candidatos_info_complementar": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar_2024/consulta_cand_complementar_2024.zip",
+  "bem_candidato_2024": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2024.zip",
+  "coligacao": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_coligacao_2024/consulta_coligacao_2024.zip",
+  "cassacao": "https://cdn.tse.jus.br/estatistica/sead/odsele/motivo_cassacao_2024/motivo_cassacao_2024.zip"
+}
